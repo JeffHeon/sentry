@@ -45,7 +45,7 @@ export default class CreateTeamForm extends React.Component {
             name="slug"
             label={t('Team Slug')}
             placeholder={t('e.g. operations, web-frontend, desktop')}
-            help={t('May contain lowercase letters, numbers, dashes and underscores.')}
+            help={t('May only contain lowercase letters, numbers, dashes and underscores.')}
             required
             stacked
             flexibleControlStateSize
